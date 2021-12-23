@@ -30,8 +30,8 @@ jobs:
       matrix:
         ruby: [ '2.5', '2.6', '2.7', '3.0' ]
         gemfile:
-          - gemfiles/lograge10.gemfile
-          - gemfiles/lograge11.gemfile
+          - gemfiles/rails_5_2.gemfile
+          - gemfiles/rails_6_0.gemfile
 
     steps:
       - uses: actions/checkout@v2
